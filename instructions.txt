@@ -1,0 +1,17 @@
+# Install Steps
+curl -O https://bootstrap.pypa.io/get-pip.py
+python get-pip.py --user
+pip install --user virtualenvwrapper
+pip install ansible
+copy Crypto (rpm cdio) into python2.6
+pip install ansible again
+
+# .bashrc entries
+export PATH=$HOME/.local/bin:$PATH
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+. $HOME/.local/bin/virtualenvwrapper.sh
+
+# Folders to copy out
+.local
+.virtualenvs
